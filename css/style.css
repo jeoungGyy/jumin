@@ -247,6 +247,8 @@ li.empty { display: flex; height: 8rem; align-items: center; justify-content: ce
 .jm-filter-wrap .felx-num input { font-family: 'Roboto', 'Sans-serif'; text-align: center;}
 .jm-filter-wrap .jm-filter-btn { width: 3.2rem; margin: 0 0 0 0.8rem;}
 .jm-filter-wrap .jm-filter-btn i { display: block; width: 3.2rem; height: 3.2rem; text-indent: -9999rem; background: url(../images/global_ico_filter.png) no-repeat center/cover;}
+.jm-filter-wrap.jm-in-group .jm-ing-line { height: 4.8rem;}
+.jm-filter-wrap .felx-num::after { bottom: 2.4rem;}
 
 /* 글 내용 본문 */
 .jm-article { margin-top: 0.8rem; padding-bottom: 2rem; line-height: 2.4rem;}
