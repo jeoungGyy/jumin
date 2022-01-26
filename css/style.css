@@ -523,7 +523,7 @@ li.empty { display: flex; height: 8rem; align-items: center; justify-content: ce
 .jm-bor .jm-img-item li a .jm-ii-title p { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin-top: 0.4rem; font-size: 1.4rem; color: var(--color-semygray); line-height: 2rem; text-overflow: ellipsis; }
 
 /* 006 */
-.jm-bor .jm-guidance { margin-top: 1.6rem; font-size: 1.8rem; line-height: 3rem;}
+.jm-bor .jm-guidance { margin-top: 1.6rem; font-size: 1.8rem; color: #0A61DD; line-height: 3rem;}
 .jm-bor .jm-guidance-sub { margin-top: 0.8rem; color: #33363E;}
 .jm-bor .jm-guidance-header { display: flex; align-items: center; justify-content: center; position: relative; height: 4.2rem; margin-top: 4.2rem;}
 .jm-bor .jm-guidance-header::after { content: ''; position: absolute; left: 0; top: 50%; width: 100%; height: 0.1rem; background-color: #111;}
