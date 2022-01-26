@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<script src="../include/head.js"></script> <!-- include: 공통 헤드 -->
+</head>
+
+<body>
+<div id="jm-wrap">
+	<div class="jm-container">
+		<script src="../include/nav.js"></script> <!-- include: 공통 nav -->
+
+		<!-- 본문 -->
+
+		<section class="jm-content jm-ser">
+			<div class="jm-area jm-height-60 topPadding">
+				<div class="jm-j-title4">
+					<p class="heading">서비스 해지</p>
+					<p class="sub">비밀번호를 입력해주세요.</p>
+				</div>
+
+				<div class="jm-pc-form">
+					<div class="jm-pcf-wrap jm-in-group">
+						<div class="jm-ing-line"> <!-- 입력 값이 잘못돼면 required 넣어주세요. 라인 색상이 달라집니다. -->
+							<div class="roundBox" style="display: none;"> <!-- 값을 입력할때마다 span태그를 하나씩 늘려주세요. -->
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+							<input type="password" id="jm_pw" autoComplete="off" required>
+							<label for="jm_pw" class="lable-name">
+								<span class="content-name">비밀번호 입력</span>
+							</label>
+						</div>
+						<button type="reset" class="jm-pcfw-btn" title="비밀번호 입력 초기화" style="display: none;">
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+					<div class="jm-required" style="display: none;">
+						<p>
+							비밀번호를 1회 잘못 입력하였습니다.<br>
+							5회 실패 시 등록된 서비스가 해지됩니다.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section><!-- //jm-content -->
+
+		<!-- 본문 -->
+
+	</div>
+</div>
+</body>
+</html>

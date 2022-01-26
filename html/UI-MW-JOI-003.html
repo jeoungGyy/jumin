@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<script src="../include/head.js"></script> <!-- include: 공통 헤드 -->
+</head>
+
+<body>
+<div id="jm-wrap">
+	<div class="jm-container">
+		<script src="../include/nav.js"></script> <!-- include: 공통 nav -->
+
+		<!-- 본문 -->
+
+		<section class="jm-content jm-joi">
+			<div class="jm-area jm-height-60 topPadding bottomPadding">
+				<div class="jm-j-title2">
+					<p class="heading">기본정보입력</p>
+					<p class="sub">
+						주민등록증 모바일 확인서비스 <br>
+						등록을 위해 주민등록증정보를 입력해주세요
+					</p>
+				</div>
+
+				<div class="jm-in-group">
+					<div class="jm-ing-line">
+						<input type="text" id="temp_a" autoComplete="off" required>
+						<label for="temp_a" class="lable-name">
+							<span class="content-name">이름</span>
+						</label>
+					</div>
+					<div class="jm-required" style="display: none;">
+						<p>이름은 필수 입력항목입니다.</p>
+					</div>
+					
+					<div class="felx-num">
+						<div class="jm-ing-line">
+							<input type="tel" id="temp_b" class="roboto" autoComplete="off" required title="주민등록번호 앞 6자리">
+							<label for="temp_b" class="lable-name">
+								<span class="content-name">주민등록번호</span>
+							</label>
+						</div>
+						<div class="jm-ing-line">
+							<input type="password" id="temp_c" class="roboto" autoComplete="off" required title="주민등록번호 뒤 7자리">
+							<label for="temp_c" class="lable-name">
+								<span class="content-name visible">주민등록번호 뒤 7자리</span>
+							</label>
+						</div>
+					</div>	
+					<div class="jm-required" style="display: none;">
+						<p>주민등록번호는 필수 입력항목입니다.</p>
+					</div>
+					
+					<div class="felx-select">
+						<div class="jm-ing-line">
+							<select id="temp_d" title="발급일자 년도 선택">
+								<option>2021</option>
+							</select>
+							<label for="temp_d" class="lable-name">
+								<span class="content-name">발급일자</span>
+							</label>
+						</div>
+						<div class="jm-ing-line">
+							<select id="temp_e"> <!-- 셀렉트 값 선택 되면 act 클래스 넣어주세요. 글자 색상이 진해져요. -->
+								<option>01</option>
+								<option>02</option>
+							</select>
+							<label for="temp_e" class="lable-name">
+								<span class="content-name visible">발급일자 월 선택</span>
+							</label>
+						</div>
+						<div class="jm-ing-line">
+							<select id="temp_f">
+								<option>01</option>
+								<option>02</option>
+							</select>
+							<label for="temp_f" class="lable-name">
+								<span class="content-name visible">발급일자 일 선택</span>
+							</label>
+						</div>
+					</div>
+					<div class="jm-required" style="display: none;">
+						<p>발급일자는 필수입력항목입니다.</p>
+					</div>
+				</div>
+
+				<div class="jm-pc-guide">
+					<i>주민등록번호 가이드 이미지</i>
+				</div>
+
+				<div class="jm-pc-btns">
+					<button type="button" class="jm-btn jm-bg-gray fs18">취소</button>
+					<button type="button" class="jm-btn jm-bg-blue fs18">확인</button>
+				</div>
+			</div>
+		</section><!-- //jm-content -->
+
+		<!-- 본문 -->
+
+	</div>
+</div>
+</body>
+</html>
