@@ -137,7 +137,7 @@ input[type="checkbox"].ios8-switch:checked + label:before { background: var(--co
 
 /* 인풋 관련 */
 .jm-in-group .felx-num { display: flex; position: relative; margin-top: 2.4rem;}
-.jm-in-group .felx-num::after { content: ''; position: absolute; left: 50%; bottom: 2.4rem; width: 0.6rem; height: 0.1rem; margin-left: -0.3rem; background-color: #bfc1c5;}
+.jm-in-group .felx-num::after { content: ''; position: absolute; left: 50%; bottom: 2.4rem; width: 0.7rem; height: 0.1rem; margin-left: -0.3rem; background-color: #bfc1c5;}
 .jm-in-group .felx-num .jm-ing-line { width: 50%; margin-top: 0;}
 .jm-in-group .felx-num .jm-ing-line:last-child { margin-left: 2.8rem;}
 .jm-in-group .felx-select { display: flex; position: relative; margin-top: 2.4rem;}
@@ -244,7 +244,7 @@ li.empty { display: flex; height: 8rem; align-items: center; justify-content: ce
 .jm-filter-wrap .felx-num { flex: 1; margin-top: 0;}
 .jm-filter-wrap .felx-num input { padding-top: 0;}
 .jm-filter-wrap .felx-num::after { bottom: 3.2rem;}
-.jm-filter-wrap .felx-num input { font-family: 'Roboto', 'Sans-serif';}
+.jm-filter-wrap .felx-num input { font-family: 'Roboto', 'Sans-serif'; text-align: center;}
 .jm-filter-wrap .jm-filter-btn { width: 3.2rem; margin: 0 0 0 0.8rem;}
 .jm-filter-wrap .jm-filter-btn i { display: block; width: 3.2rem; height: 3.2rem; text-indent: -9999rem; background: url(../images/global_ico_filter.png) no-repeat center/cover;}
 
