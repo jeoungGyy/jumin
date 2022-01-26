@@ -378,7 +378,7 @@ li.empty { display: flex; height: 8rem; align-items: center; justify-content: ce
 **********************************************/
 
 /* 공통 */
-.jm-bg_lightblue { padding:4rem 2rem; background-color: var(--color-lightblue);}
+.jm-bg_lightblue { padding:4rem 2rem 10rem; background-color: var(--color-lightblue);}
 .jm-bg_gray { background-color: #EAECEF;}
 .jm-bg_white { margin: -1.6rem -2rem 0; padding: 1.6rem 2rem 0; background-color: #fff;}
 .jm-prevention { display: flex; overflow: hidden; position: absolute; left: 0; bottom: 0; width: 100%; height: 4rem; align-items: center; white-space: nowrap; background: linear-gradient(to right,  rgba(24, 185, 206, 1) 0%,rgba(143, 80, 244, 1) 100%);}
