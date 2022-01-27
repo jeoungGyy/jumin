@@ -533,10 +533,10 @@ li.empty { display: flex; height: 8rem; align-items: center; justify-content: ce
 .jm-bor .jm-guidance-header span { display: inline-block; position: relative; z-index: 1; padding: 0 0.8rem; color: #33363E; background-color: #fff;}
 .jm-bor .jm-title { display: flex; align-items: center; height: 4.2rem; font-size: 1.6rem; color: #0A61DD;}
 .jm-bor .jm-title i { display: inline-block; width: 2.4rem; height: 2.4rem; margin-right: 0.4rem; background: url(../images/ico_guide_header.png) no-repeat center/cover;}
-.jm-bor .jm-sevice-body { margin: 1.6rem -2rem 0; padding: 4rem 0 4rem 2rem; background-color: #EAECEF;}
-.jm-bor .jm-sevice { display: flex; overflow: hidden; position: relative; padding-right: 2rem;}
-.jm-bor .jm-sevice::after { content: ''; position: absolute; left: 2rem; top: 7rem; width: 100%; height: 0.1rem; background-color: #BABFC5;}
-.jm-bor .jm-sevice li { flex: 1; text-align: center;}
+.jm-bor .jm-sevice-body { margin: 1.6rem 0 0; padding: 4rem 0; background-color: #EAECEF;}
+.jm-bor .jm-sevice { display: flex; overflow: hidden; position: relative;}
+.jm-bor .jm-sevice li { flex: 1; position: relative; text-align: center;}
+.jm-bor .jm-sevice li ~ li::after { content: ''; position: absolute; left: 0; top: 38%; width: 6.45rem; height: 1.2rem; background: url(../images/ico_arrow_bg.png) no-repeat center/cover; transform: translateX(-50%);}
 .jm-bor .jm-sevice p { font-size: 1.4rem; font-weight: 700; color: #33363E;}
 .jm-bor .jm-sevice span { display: block; margin-top: 0.8rem; font-size: 1.4rem; color: #52545B; letter-spacing: -0.1em; line-height: 2rem;}
 .jm-bor .jm-sevice i { display: inline-block; position: relative; z-index: 1; width: 6.4rem; height: 6.4rem; margin-top: 1.2rem;}
