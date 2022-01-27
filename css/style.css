@@ -218,7 +218,7 @@ li.empty { display: flex; height: 8rem; align-items: center; justify-content: ce
 .paragraphGroup p ~ p { margin-top: 0.8rem;}
 
 /* 입력 실패 시 */
-.jm-required { display: flex; align-items: center; position: relative; height: 2.4rem; margin-top: 0.8rem;}
+.jm-required { display: flex; align-items: center; position: relative; min-height: 2.4rem; margin-top: 0.8rem;}
 .jm-required::after { content: ''; position: absolute; left:0; top:0.1rem; width:1.25rem; height:1.25rem; background: url(../images/ico_required.png) no-repeat; background-size: 1.25rem 1.25rem;}
 .jm-required p { font-size: 1.4rem; color: var(--color-red);}
 
