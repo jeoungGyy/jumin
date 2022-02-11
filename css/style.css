@@ -164,6 +164,10 @@ input[type="checkbox"].ios8-switch:checked + label:before { background: var(--co
 .jm-in-group .jm-ing-line.required label::after,
 .jm-in-group .jm-ing-line.required select.act + label{ border-color: #E4022C;}
 
+.jm-in-group-anchor { display: flex; align-items: center; justify-content: center; height: 4.8rem; margin-top: 1rem;}
+.jm-in-group-anchor a { display: block; color: #0A61DD;}
+.jm-in-group-anchor a span { border-bottom: 1px solid #0A61DD;}
+
 .jm-pc-title { display: flex; height: 3.750rem; align-items: center;}
 .jm-pc-form .jm-pcf-wrap { display: flex; position: relative; align-items: center;}
 .jm-pc-form .jm-pcf-wrap .jm-ing-line { width: 100%;}
